@@ -490,7 +490,12 @@ select.form-input option {
   background: #fff;
 }
 
-.form-input::placeholder { color: #c4cdd6; }
+/* Placeholder = light grey so it reads as hint/demo text */
+.form-input::placeholder {
+  color: #a0aec0;
+  -webkit-text-fill-color: #a0aec0;   /* overrides the dark fill set on .form-input */
+  opacity: 1;                          /* Firefox needs this */
+}
 
 .form-input:focus {
   outline: none;
