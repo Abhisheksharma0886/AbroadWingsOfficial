@@ -1,5 +1,5 @@
 /**
- * main.js — Future Abroad
+ * main.js — AbroadWings
  * Handles: mobile nav, university directory (featured-8 default + search-driven full 50),
  * paginated carousel grid, personalized matching, FAQ accordion, enquiry form, modal, scroll reveal.
  */

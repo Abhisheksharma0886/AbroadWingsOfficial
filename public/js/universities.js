@@ -1,5 +1,5 @@
 /**
- * universities.js — Future Abroad University Directory Data
+ * universities.js — AbroadWings University Directory Data
  * Complete list of 50 top Taiwanese universities.
  * All information sourced from official university websites and studyintaiwan.org.
  * Program details must be verified on official university websites before application.
