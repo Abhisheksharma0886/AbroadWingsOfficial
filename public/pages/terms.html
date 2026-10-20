@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions — Future Abroad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class', theme: { extend: { colors: { navy: '#0a1628', teal: '#00bcd4' } } } };</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-white dark:bg-navy text-slate-800 dark:text-slate-200">
+  <div class="max-w-3xl mx-auto px-4 py-16">
+    <a href="/" class="inline-flex items-center gap-2 text-teal text-sm font-medium mb-8 hover:underline">
+      <i class="fas fa-arrow-left"></i> Back to Future Abroad
+    </a>
+    <h1 class="text-3xl font-bold mb-2">Terms and Conditions</h1>
+    <p class="text-slate-500 text-sm mb-8">Last updated: October 2025 — <strong>Template only. Review with a legal advisor before publication.</strong></p>
+
+    <div class="space-y-6 text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">1. Nature of Service</h2>
+        <p>Future Abroad provides advisory and application-support consultancy services to students applying to universities in Taiwan. We are an independent consultancy and do not represent or have official affiliation with any Taiwanese university or government body.</p>
+      </section>
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">2. No Guarantee of Admission, Scholarship, or Visa</h2>
+        <p>Future Abroad does not guarantee admission to any university, award of any scholarship, or approval of any visa application. All such decisions are made exclusively by the respective institutions and authorities.</p>
+      </section>
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">3. Service Fee</h2>
+        <p>The consultancy fee covers advisory services only. University application fees, tuition deposits, examination costs, visa fees, insurance, and travel expenses are separate and payable directly to the respective institutions or authorities.</p>
+        <p>A detailed service agreement with refund and cancellation conditions will be provided and signed before any payment is collected.</p>
+      </section>
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">4. Student Responsibilities</h2>
+        <p>Students are responsible for providing accurate and complete information and documents. Future Abroad is not liable for consequences arising from inaccurate information provided by the student.</p>
+      </section>
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">5. Accuracy of Information</h2>
+        <p>We make reasonable efforts to ensure the accuracy of information on this website. However, university programs, tuition fees, scholarship criteria, and admission requirements can change. Always verify current information with the official source.</p>
+      </section>
+      <section>
+        <h2 class="text-lg font-bold text-slate-800 dark:text-white mb-2">6. Governing Law</h2>
+        <p>These terms shall be governed by the laws applicable in Jharkhand, India.</p>
+      </section>
+    </div>
+  </div>
+  <script>
+    const t = localStorage.getItem('fa-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    if (t === 'dark') document.documentElement.classList.add('dark');
+  </script>
+</body>
+</html>
