@@ -236,8 +236,8 @@ SMTP_PORT=587
 SMTP_SECURE=false
 SMTP_USER=your-email@gmail.com
 SMTP_PASS=your-app-password
-ADMIN_EMAIL=abhishek@futureabroad.in
-FROM_EMAIL=noreply@futureabroad.in
+ADMIN_EMAIL=abhishek@abroadwingsofficial.netlify.app
+FROM_EMAIL=noreply@abroadwingsofficial.netlify.app
 ```
 
 ---
@@ -261,7 +261,7 @@ The legal page templates are in `public/pages/`. They are **templates only** and
 
 ```bash
 npm install -g pm2
-pm2 start server.js --name "future-abroad"
+pm2 start server.js --name "abroad-wings"
 pm2 save
 pm2 startup
 ```
@@ -272,7 +272,7 @@ pm2 startup
 ```nginx
 server {
     listen 80;
-    server_name futureabroad.in www.futureabroad.in;
+    server_name abroadwingsofficial.netlify.app;
     location / {
         proxy_pass http://localhost:3000;
         proxy_set_header Host $host;

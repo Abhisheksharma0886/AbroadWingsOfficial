@@ -96,7 +96,7 @@ router.post('/', async (req, res) => {
         transporter.sendMail({
           from:    process.env.FROM_EMAIL || process.env.SMTP_USER,
           to:      process.env.ADMIN_EMAIL,
-          subject: `[Future Abroad] New Enquiry — ${cleanName}`,
+          subject: `[AbroadWings] New Enquiry — ${cleanName}`,
           text: [
             `Name: ${cleanName}`, `Email: ${emailLower}`, `WhatsApp: ${cleanWA}`,
             `Qualification: ${cleanQual}`, `Degree: ${cleanDegree}`, `Major: ${cleanMajor}`,
@@ -110,7 +110,7 @@ router.post('/', async (req, res) => {
     return res.json({
       success: true,
       id: newId,
-      message: "Thank you! Abhishek Sharma & Future Abroad team will contact you for your free 1-on-1 counselling session."
+      message: "Thank you! Abhishek Sharma & AbroadWings team will contact you for your free 1-on-1 counselling session."
     });
 
   } catch (err) {

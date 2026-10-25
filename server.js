@@ -68,7 +68,7 @@ app.use((err, _req, res, _next) => {
 async function boot() {
   await getDb();   // Initialise DB before accepting requests
   app.listen(PORT, () => {
-    console.log(`\n🌏 Future Abroad running at http://localhost:${PORT}`);
+    console.log(`\n🌏 AbroadWings running at http://localhost:${PORT}`);
     console.log(`   Press Ctrl+C to stop.\n`);
   });
 }
